@@ -13,13 +13,14 @@ def load_cnn_model():
     return cnn_model
 
 model = load_cnn_model()
+model1 = load_cnn1_model
 
 st.write('# Malaria Retinopathy Classifier')
 st.write('This is a deep learning model created for the purpose of computer aided diagnosis of papilledema, vessel leakage, punctuate leakage, focal leakage and normal retinal images, a set of retinal abnormalities that is unique to severe malaria which is common in children with cerebral malaria ')
 st.write('Select an image from the left pane and leave the rest to the neural network...')
 
 
-uploaded_image = st.sidebar.file_uploader("Choose a JPG file", type="jpeg")
+uploaded_image = st.sidebar.file_uploader("Choose a JPG file", type="jpg")
 if uploaded_image:
     st.sidebar.info('Uploaded image:')
     st.sidebar.image(uploaded_image, width=240)
@@ -63,6 +64,6 @@ if uploaded_image:
         data = ([image1], None)
         explainer = GradCAM()
         grad_cam_grid = explainer.explain(
-            data, model, class_index=y, layer_name="dense_13"
+            data, model1, class_index=y, layer_name="dense_1"
         )
         st.image(grad_cam_grid, width = 300)
