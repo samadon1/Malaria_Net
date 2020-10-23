@@ -4,7 +4,7 @@ Severe malaria is commonly misdiagnosed in Africa, leading to a failure to treat
 
 The detection and assessment of leakage in retinal fluorescein angiogram images is important for the management of a wide range of retinal diseases. We have developed a framework that can automatically detect three types of leakage (large focal, punctate focal and vessel segment leakage).
 
-![alt text](https://github.com/samadon1/Malaria_Net/blob/main/Capture11.JPG" Logo Title Text 1")
+![alt text](https://github.com/samadon1/Malaria_Net/blob/main/Capture11.JPG " Working app screen capture ")
 
 
 ## The model
