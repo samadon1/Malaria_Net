@@ -1,3 +1,5 @@
+# NB: Will perform transfer learning with a trained diabetic retinopathy model 
+
 # Malaria_Net
 ## Background
 Severe malaria is commonly misdiagnosed in Africa, leading to a failure to treat other life-threatening illnesses. In malaria-endemic areas, parasitemia does not ensure a diagnosis of severe malaria because parasitemia can be incidental to other concurrent disease. The detection of malarial retinopathy is a candidate diagnostic test for cerebral malaria. Malarial retinopathy consists of a set of retinal abnormalities that is unique to severe malaria and common in children with cerebral malaria
