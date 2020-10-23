@@ -11,4 +11,5 @@ Becuase of the smaller size of the dataset ( 53 training images and 15 validatio
 The model was trained with google cloud TPUs [google cloud TPUs](https://cloud.google.com/tpu)
 
 ## Deployment
-The streamlit-ready app will be containerized with docker and deplyoed on kubernestes
+The streamlit-ready app will be containerized with [docker and deplyoed on kubernestes](https://www.docker.com/products/kubernetes)
+
