@@ -7,8 +7,8 @@ The detection and assessment of leakage in retinal fluorescein angiogram images 
 ## The model
 This is a deep learning model created for the purpose of computer aided diagnosis of papilledema, vessel leakage, punctuate leakage, focal leakage and normal retinal images, a set of retinal abnormalities that is unique to severe malaria which is common in children with cerebral malaria.
 
-Becuase of the smaller size of the dataset ( 53 training images and 15 validation images), by using transfer learning, the model was pretrained on the xception pretrained model.
-The model was trained with google cloud TPUs [google cloud TPUs](https://www.google.com)
+Becuase of the smaller size of the dataset ( 53 training images and 15 validation images) stored in [google cloud storage](https://cloud.google.com/storage), by using transfer learning, the model was pretrained on the xception pretrained model.
+The model was trained with google cloud TPUs [google cloud TPUs](https://cloud.google.com/tpu)
 
 ## Deployment
 The streamlit-ready app will be containerized with docker and deplyoed on kubernestes
